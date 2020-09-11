@@ -9,8 +9,8 @@ driver.get("https://www.instagram.com/")
 
 # login
 time.sleep(2)
-driver.find_element_by_name("username").send_keys("hannah91vic")
-driver.find_element_by_name("password").send_keys("08039506623")
+driver.find_element_by_name("username").send_keys("xxxxxx")
+driver.find_element_by_name("password").send_keys("xxxxx")
 time.sleep(1)
 driver.find_element_by_xpath("//*[@id='loginForm']/div/div[3]").click()
 time.sleep(2)
